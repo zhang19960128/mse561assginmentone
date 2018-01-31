@@ -13,6 +13,7 @@ int main(int argc,char* argv[]){
 		temp=dist_n(2,i);
 		amplifier[i]=temp.length;
 		layernum[i]=temp.num;
+	//	std::cout<<"neighbor layer: "<<i<<" numbers of neighbor: "<<temp.num<<" distance: "<<temp.length<<std::endl;
 	}
 	//started to find the mimimum value!!! very interesting.
 	double la_const_equili=0;
